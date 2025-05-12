@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.guarav {
+    height: 100px;
+    width: 400px;
+    
+}
+#btn{
+    height: auto;
+    width: 60px;
+    filter:invert(1);
+    margin-top: 20px;
+    border: none;
+}
+#voice {
+    height: 25vh;
+    display: none;
+    border: none;
+}
+
+h1{
+    color: white;
+}
